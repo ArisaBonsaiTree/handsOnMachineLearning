@@ -1,1 +1,8 @@
 /venv/
+.idea
+
+
+Want to remove files from GitHub?
+git rm -r --cached .
+git add .
+git commit -m "Drop files from .gitignore"
